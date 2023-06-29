@@ -28,8 +28,8 @@ class TestMail extends Mailable
      */
     public function build()
     {
-        // return $this
-        // ->subject('テスト送信完了')
-        // ->view('emails.test');
+        return $this
+        ->subject('テスト送信完了')
+        ->view('emails.test');
     }
 }
